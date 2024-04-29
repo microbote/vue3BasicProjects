@@ -3,38 +3,38 @@ import ToolingIcon from '@/components/icons/IconTooling.vue'
 import EcosystemIcon from '@/components/icons/IconEcosystem.vue'
 import CommunityIcon from '@/components/icons/IconCommunity.vue'
 import SupportIcon from '@/components/icons/IconSupport.vue'
-import { ref, shallowRef } from 'vue'
+import { defineAsyncComponent, ref, shallowRef } from 'vue'
 
-import SubImageSlider from '@/components/subs/SubImageSlider.vue'
-import SubDropDownMenu from '@/components/subs/SubDropDownMenu.vue'
-import SubAnimateDropDownMenu from '@/components/subs/SubAnimateDropDownMenu.vue'
-import SubResponsiveTab from '@/components/subs/SubResponsiveTab.vue'
-import SubSideBarToggleMenu from '@/components/subs/SubSideBarToggleMenu.vue'
-import SubTabCard from '@/components/subs/SubTabCard.vue'
-import SubResponsiveTimeline from '@/components/subs/SubResponsiveTimeline.vue'
-import SubGreenTimeline from '@/components/subs/SubGreenTimeline.vue'
-import SubMultiLevelAccordion from '@/components/subs/SubMultiLevelAccordion.vue'
-import SubSoundBoard from '@/components/subs/SubSoundBoard.vue'
-import SubDadJokes from '@/components/subs/SubDadJokes.vue'
-import SubDrinkWater from '@/components/subs/SubDrinkWater.vue'
-import SubContentPlaceHolder from '@/components/subs/SubContentPlaceHolder.vue'
-import SubStickyNavigation from '@/components/subs/SubStickyNavigation.vue'
-import SubDoubleClickHeart from '@/components/subs/SubDoubleClickHeart.vue'
-import SubFeedBackUIDesign from '@/components/subs/SubFeedBackUIDesign.vue'
-import SubFormInputWave from '@/components/subs/SubFormInputWave.vue'
-import SubGithubProfiles from '@/components/subs/SubGithubProfiles.vue'
-import SubHoverBoard from '@/components/subs/SubHoverBoard.vue'
-import SubImageCarousel from '@/components/subs/SubImageCarousel.vue'
-import SubIncrementingCounter from '@/components/subs/SubIncrementingCounter.vue'
-import SubMobileTabNavigation from '@/components/subs/SubMobileTabNavigation.vue'
-import SubPasswordGenerator from '@/components/subs/SubPasswordGenerator.vue'
-import SubProgressSteps from '@/components/subs/SubProgressSteps.vue'
-import SubQuizApp from '@/components/subs/SubQuizApp.vue'
-import SubToastNotification from '@/components/subs/SubToastNotification.vue'
-import SubTodoList from '@/components/subs/SubTodoList.vue'
-import SubVerifyAccountUI from '@/components/subs/SubVerifyAccountUI.vue'
-import SubDoubleVerticalSlider from '@/components/subs/SubDoubleVerticalSlider.vue'
-import SubSimpleTimer from '@/components/subs/SubSimpleTimer.vue'
+const SubImageSlider = defineAsyncComponent(() => import('@/components/subs/SubImageSlider.vue'))
+const SubDropDownMenu = defineAsyncComponent(() => import( '@/components/subs/SubDropDownMenu.vue'))
+const SubAnimateDropDownMenu = defineAsyncComponent(() => import( '@/components/subs/SubAnimateDropDownMenu.vue'))
+const SubResponsiveTab = defineAsyncComponent(() => import( '@/components/subs/SubResponsiveTab.vue'))
+const SubSideBarToggleMenu = defineAsyncComponent(() => import( '@/components/subs/SubSideBarToggleMenu.vue'))
+const SubTabCard = defineAsyncComponent(() => import( '@/components/subs/SubTabCard.vue'))
+const SubResponsiveTimeline = defineAsyncComponent(() => import( '@/components/subs/SubResponsiveTimeline.vue'))
+const SubGreenTimeline = defineAsyncComponent(() => import( '@/components/subs/SubGreenTimeline.vue'))
+const SubMultiLevelAccordion = defineAsyncComponent(() => import( '@/components/subs/SubMultiLevelAccordion.vue'))
+const SubSoundBoard = defineAsyncComponent(() => import( '@/components/subs/SubSoundBoard.vue'))
+const SubDadJokes = defineAsyncComponent(() => import( '@/components/subs/SubDadJokes.vue'))
+const SubDrinkWater = defineAsyncComponent(() => import( '@/components/subs/SubDrinkWater.vue'))
+const SubContentPlaceHolder = defineAsyncComponent(() => import( '@/components/subs/SubContentPlaceHolder.vue'))
+const SubStickyNavigation = defineAsyncComponent(() => import( '@/components/subs/SubStickyNavigation.vue'))
+const SubDoubleClickHeart = defineAsyncComponent(() => import( '@/components/subs/SubDoubleClickHeart.vue'))
+const SubFeedBackUIDesign = defineAsyncComponent(() => import( '@/components/subs/SubFeedBackUIDesign.vue'))
+const SubFormInputWave = defineAsyncComponent(() => import( '@/components/subs/SubFormInputWave.vue'))
+const SubGithubProfiles = defineAsyncComponent(() => import( '@/components/subs/SubGithubProfiles.vue'))
+const SubHoverBoard = defineAsyncComponent(() => import( '@/components/subs/SubHoverBoard.vue'))
+const SubImageCarousel = defineAsyncComponent(() => import( '@/components/subs/SubImageCarousel.vue'))
+const SubIncrementingCounter = defineAsyncComponent(() => import( '@/components/subs/SubIncrementingCounter.vue'))
+const SubMobileTabNavigation = defineAsyncComponent(() => import( '@/components/subs/SubMobileTabNavigation.vue'))
+const SubPasswordGenerator = defineAsyncComponent(() => import( '@/components/subs/SubPasswordGenerator.vue'))
+const SubProgressSteps = defineAsyncComponent(() => import( '@/components/subs/SubProgressSteps.vue'))
+const SubQuizApp = defineAsyncComponent(() => import( '@/components/subs/SubQuizApp.vue'))
+const SubToastNotification = defineAsyncComponent(() => import( '@/components/subs/SubToastNotification.vue'))
+const SubTodoList = defineAsyncComponent(() => import( '@/components/subs/SubTodoList.vue'))
+const SubVerifyAccountUI = defineAsyncComponent(() => import( '@/components/subs/SubVerifyAccountUI.vue'))
+const SubDoubleVerticalSlider = defineAsyncComponent(() => import( '@/components/subs/SubDoubleVerticalSlider.vue'))
+const SubSimpleTimer = defineAsyncComponent(() => import( '@/components/subs/SubSimpleTimer.vue'))
 
 export const items = ref([
   {
