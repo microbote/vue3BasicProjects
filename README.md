@@ -6,9 +6,8 @@ It starts from basic projects with pure HTML and CSS, then it uses Javascript to
 Hope that with this project, Vue3 beginners can learn How to build a basic framework using Vue3 and can be gradually familiar with Vue3 grammas.
 
 Demos are presented here: [Demos](https://microbote.github.io/)
-It will be slow on the first loading because async-loading of vue-router has not been applied yet.
 
-构建好的项目页面放在[Demos](https://microbote.github.io/), 因为没做优化, 初次加载可能很慢.
+构建好的项目页面放在[Demos](https://microbote.github.io/). 初始版本没做异步组件优化, 加载极慢(等1分钟左右), 做了异步组件加载优化后, 现在可以秒开了.
 
 这是我在VUE3入门学习过程中整理的30个单页小项目, 从基础的纯html和css项目, 到使用javascript的项目, 逐渐深入. 初学者可以借此熟悉vue3的语法, 和web组件的实现思路.
 
