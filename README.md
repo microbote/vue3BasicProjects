@@ -1,5 +1,15 @@
 # vue3BasicProjects
 
+This project contains 30 basic single-page projects which are collected from webs and rewrited with Vue3@latest.
+It starts from basic projects with pure HTML and CSS, then it uses Javascript to get dynamic effects.
+
+Hope that with this project, Vue3 beginners can learn How to build a basic framework using Vue3 and can be gradually familiar with Vue3 grammas.
+
+Demos are presented here: [Demos](https://microbote.github.io/)
+It will be slow on the first loading because async-loading of vue-router has not been applied yet.
+
+构建好的项目页面放在[Demos](https://microbote.github.io/), 因为没做优化, 初次加载可能很慢.
+
 这是我在VUE3入门学习过程中整理的30个单页小项目, 从基础的纯html和css项目, 到使用javascript的项目, 逐渐深入. 初学者可以借此熟悉vue3的语法, 和web组件的实现思路.
 
 单页项目都封装成一个独立的vue component, 放置在'src/components/subs'目录中.
